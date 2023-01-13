@@ -23,7 +23,14 @@ body {
   padding: 0;
   font-family: fonts.$primary-ff;
   color: colors.$regal-blue;
-  background-color: colors.$alice-blue;
+  background: url('../img/pattern-background-mobile.svg') colors.$alice-blue;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  @media screen and (min-width: 768px) {
+    background: url('../img/pattern-background-desktop.svg') colors.$alice-blue;
+    background-repeat: no-repeat;
+  }
 }
 
 .container {
