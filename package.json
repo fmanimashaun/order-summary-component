@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+git+https://github.com/fmanimashaun/qr-code-component.git"
+    "url": "git+git+https://github.com/fmanimashaun/order-summary-component.git"
   },
   "keywords": [],
   "author": "Engr. Animashaun Fisayo Michael",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fmanimashaun/qr-code-component/issues"
+    "url": "https://github.com/fmanimashaun/order-summary-component/issues"
   },
-  "homepage": "https://github.com/fmanimashaun/qr-code-component#readme",
+  "homepage": "https://github.com/fmanimashaun/order-summary-component#readme",
   "devDependencies": {
     "@babel/core": "^7.20.2",
     "@babel/plugin-transform-modules-commonjs": "^7.19.6",

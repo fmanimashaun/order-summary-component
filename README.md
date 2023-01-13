@@ -39,8 +39,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/fmanimashaun/qr-code-component)
-- [Live Site URL](https://fmanimashaun.github.io/qr-code-component/)
+- [Solution URL](https://github.com/fmanimashaun/order-summary-component)
+- [Live Site URL](https://fmanimashaun.github.io/rder-summary-component/)
 
 ## My process
 
