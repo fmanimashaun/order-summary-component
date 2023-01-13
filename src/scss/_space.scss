@@ -1,0 +1,7 @@
+$card-row-gap: clamp(2rem, calc(1.71rem + 1.22vw), 2.81rem); // 32px - 45px
+$card-text-t-margin: clamp(-1.5rem, calc(-1.59rem + 0.38vw), -1.25rem); // -24px - -20px
+$plan-padding: clamp(1rem, calc(0.82rem + 0.75vw), 1.5rem); // 16px - 24px
+$card-body-padding-lr: clamp(1.5rem, calc(0.97rem + 2.25vw), 3rem);// 24px - 48px
+$card-body-padding-t: clamp(2rem, calc(1.71rem + 1.22vw), 2.81rem); // 32px - 45px
+$card-body-padding-b: clamp(2rem, calc(1.65rem + 1.5vw), 3rem); // 32px - 48px
+$plan-payment-margin-b: clamp(1.5rem, calc(1.32rem + 0.75vw), 2rem); // 24px - 32px
