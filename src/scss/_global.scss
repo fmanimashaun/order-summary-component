@@ -23,7 +23,15 @@ body {
   padding: 0;
   font-family: fonts.$primary-ff;
   color: colors.$regal-blue;
-  background-color: colors.$alice-blue;
+  background: url('../img/pattern-background-mobile.svg') colors.$alice-blue;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  @media screen and (min-width: 768px) {
+    background: url('../img/pattern-background-desktop.svg') colors.$alice-blue;
+    background-repeat: no-repeat;
+  }
+
 }
 
 .container {
@@ -35,19 +43,19 @@ body {
   margin-inline: auto;
   padding-inline: 24px;
 
-  & > * {
+  &>* {
     max-width: 100%;
   }
 
-  & > main {
+  &>main {
     margin-block: auto;
   }
 
-  & > :first-child:not(main) {
+  &> :first-child:not(main) {
     margin-block-start: 0;
   }
 
-  & > :last-child:not(main) {
+  &> :last-child:not(main) {
     margin-block-end: 0;
   }
 }
