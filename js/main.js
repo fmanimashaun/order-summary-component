@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkorder_summary_component=self.webpackChunkorder_summary_component||[]).push([[179],{971:()=>{}},e=>{e(e.s=971)}]);
